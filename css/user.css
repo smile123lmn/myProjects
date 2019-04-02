@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#userPage{
+	width: 97%;
+	background-color: white;
+	height: 500px;
+	margin: 15px auto 0;
+	padding-top: 10px;
+}
+#userPage .addbutton{
+	margin-left: 16px;
+}
+#userPage .addbutton .add{
+	width: 60px;
+	height: 30px;
+}
+#userPage .allUsers{
+	width: 850px;
+	height: 230px;
+	margin: 20px auto 0;
+}
+#userPage .allUsers>div{
+	float: left;
+	/*display: inline-block;*/
+}
+#userPage .allUsers .myUser {
+	padding: 10px;
+	width: 240px;
+	height: 280px;
+	border:1px solid #ccc;
+	display: none;
+	margin-right: 40px;
+	margin-bottom: 25px;
+	box-shadow: 0 0 5px #ccc;
+	
+}
+#userPage .allUsers .myUser .userFace{
+	margin: 0 auto;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+#userPage .allUsers .myUser .userFace img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+#userPage .allUsers .myUser table{
+	width: 200px;
+	margin: 10px auto;
+}
+#userPage .allUsers .myUser table tr td{
+	border: 0px;
+	font-size: 13px;
+}
+#userPage .allUsers .myUser table tr td:first-child{
+	width: 80px;
+}
+#userPage .allUsers .myUser .status .sta{
+	width: 60px;
+	height: 24px;
+	background-color:#ccc;
+	border-radius: 12px;
+	line-height: 24px;
+
+}
+#userPage .allUsers .myUser .status .sta .disc{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+#userPage .allUsers .myUser .status .sta1{
+	width: 60px;
+	height: 24px;
+	background-color:#68B828;
+	border-radius: 12px;
+	line-height: 24px;
+	color: white;
+	text-align: center;
+	position: absolute;
+
+}
+#userPage .allUsers .myUser .status .sta1 .disc1{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+	margin-top: 2px;
+	right: 2px;
+}
+#userPage .modal .modal-body form>*{
+	display: block;
+}
+#userPage .modal .modal-body form>span{
+	height: 30px;
+	line-height: 30px;
+}
+#userPage .modal .modal-body form>input{
+	width: 200px;
+}
